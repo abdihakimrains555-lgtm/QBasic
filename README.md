@@ -23,12 +23,12 @@
 - 跨平台兼容：基于 Qt 框架编译运行，可在 Windows、macOS、Linux 系统上正常使用，适配不同屏幕分辨率
 
 ## 示例 BASIC 程序（可直接测试）
-10 REM 计算两数之和
-20 INPUT n1
-30 INPUT n2
-40 LET total = n1 + n2
-50 PRINT total
-60 END
+- 10 REM 计算两数之和
+- 20 INPUT n1
+- 30 INPUT n2
+- 40 LET total = n1 + n2
+- 50 PRINT total
+- 60 END
 
 ## 开发亮点
 - 模块化设计：将语法解析、语句执行、界面展示拆分为独立模块，代码解耦、易于维护与扩展
