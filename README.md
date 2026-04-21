@@ -36,3 +36,19 @@
 - Qt 界面实践：熟练运用 Qt 布局、信号槽、文本编辑组件，实现直观易用的交互界面
 - 跨平台特性：依托 Qt 框架的跨平台优势，无需修改核心代码即可适配多操作系统
 - 注释完整：核心逻辑模块附带详细注释，便于学习与二次开发
+
+## 帮助
+- line REM text		    	    在第line行添加注释text
+- line LET n = exp			    将n赋值为表达式exp的值，可不填行号
+- line PRINT exp			    打印表达式的值，可不填行号
+- line INPUT n			        输入n，可不填行号
+- line GOTO n			        跳转至第n行
+- line IF exp1 op exp2 THEN n	满足条件跳转至第n行
+- line END			            终止程序
+- DELETE line			        删除第line行代码
+- RUN				            运行程序
+- LOAD				            从文件中加载程序代码
+- LIST				            显示代码
+- CLEAR				            清空代码、语法树、输出结果
+- HELP			        	    显示帮助
+- QUIT			        	    退出
